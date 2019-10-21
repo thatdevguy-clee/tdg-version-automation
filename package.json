@@ -1,6 +1,6 @@
 {
   "name": "tdg-version-automation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Just for testing version automation.",
   "main": "index.js",
   "scripts": {
