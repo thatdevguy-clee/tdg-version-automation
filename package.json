@@ -1,7 +1,7 @@
 {
   "name": "tdg-version-automation",
   "version": "1.0.2",
-  "description": "Just for testing version automation.",
+  "description": "Just for testing version automation. This test is using np by sindresorhus.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\""
