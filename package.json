@@ -4,11 +4,15 @@
   "description": "Just for testing version automation. This test is using np by sindresorhus.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "version": "auto-changelog -p && git add CHANGELOG.md",
+    "release": "np"
   },
   "author": "Christopher Lee (That Dev Guy)",
   "license": "ISC",
-  "dependencies": {
-    "np": "^5.1.1"
+  "dependencies": {},
+  "devDependencies": {
+    "auto-changelog": "^1.16.1",
+    "np": "^5.1.2"
   }
 }
