@@ -8,8 +8,16 @@
     "version": "auto-changelog -p && git add CHANGELOG.md",
     "release": "np"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thatdevguy-clee/tdg-version-automation.git"
+  },
   "author": "Christopher Lee (That Dev Guy)",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thatdevguy-clee/tdg-version-automation/issues"
+  },
+  "homepage": "https://github.com/thatdevguy-clee/tdg-version-automation#readme",
   "dependencies": {},
   "devDependencies": {
     "auto-changelog": "^1.16.1",
