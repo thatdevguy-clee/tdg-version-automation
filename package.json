@@ -1,6 +1,6 @@
 {
   "name": "tdg-version-automation",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Just for testing version automation. This test is using np by sindresorhus.",
   "main": "index.js",
   "scripts": {
