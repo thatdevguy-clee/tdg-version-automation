@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
-    "version": "auto-changelog -p && git add CHANGELOG.md",
-    "release": "np"
+    "update-changelog": "auto-changelog -p && git add CHANGELOG.md",
+    "release": "np patch --no-publish"
   },
   "repository": {
     "type": "git",
@@ -22,8 +22,5 @@
   "devDependencies": {
     "auto-changelog": "^1.16.1",
     "np": "^5.1.2"
-  },
-  "np": {
-    "releaseDraft": true
   }
 }
